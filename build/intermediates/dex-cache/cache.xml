@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/julkar/workspace/MyApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="afe8eb4906b94df000e2b3714c864ec42d4e4ea6">
+        <dex dex="/Users/julkar/workspace/MyApp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_12eae8c697008e5dce47f2c941e16172f9cb6571.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/julkar/workspace/MyApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03ea17ffbc41fdabd0d6862a64ae5591eebeedc4">
+        <dex dex="/Users/julkar/workspace/MyApp/platforms/android/build/intermediates/pre-dexed/release/CordovaLib-unspecified-release_7b3a6449d6cc7783aa7c29dde1c5e209702f80e0.jar" />
+    </item>
+
+</items>
