@@ -51,6 +51,10 @@ task wrapper(type: Wrapper) {
 ext {
     apply from: 'CordovaLib/cordova.gradle'
     // The value for android.compileSdkVersion.
+
+    cdvCompileSdkVersion = privateHelpers.getProjectTarget()
+    cdvBuildToolsVersion = privateHelpers.findLatestInstalledBuildTools()
+
     if (!project.hasProperty('cdvCompileSdkVersion')) {
         cdvCompileSdkVersion = null;
     }
